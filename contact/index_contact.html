@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bastien AVRILLON - Contact</title>
+    <link rel="stylesheet" href="style_contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    <a href="../index.html" class="home-arrow">
+      <i class="fas fa-arrow-left"></i>
+  </a>
+    <div class="carte_visite">
+      <h1>Bastien AVRILLON</h1>
+      <img src="photo_profil.jpg" alt="Bastien AVRILLON">
+      <p><strong>Email :</strong> <a href="mailto:bastien.avrillon@gmail.com">bastien.avrillon@gmail.com</a></p>
+      <p><strong>Téléphone :</strong> <a href="tel:+33767368817">+33 (0) 7 67 36 88 25</a></p>
+      <p><strong>Adresse postale : </strong>413 route de la Pallaz, 74330 CHARVONNEX<p>
+      <p>Une prise de contact est possible via le formulaire ci-contre.</p>
+    </div>
+
+    <div class="contactez-moi">
+      <h1>Formulaire de contact :</h1>
+      <form action="https://formsubmit.co/martin.lyne.74@gmail.com " method="POST" />
+      <div>
+        <label for="nom">Votre nom :</label>
+        <input type="text" id="nom" name="nom" placeholder="Prénom Nom" required>
+      </div>
+      <div>
+        <label for="email">Votre adresse e-mail :</label>
+        <input type="email" id="email" name="email" placeholder="adresse@mail.com" required>
+      </div>
+      <div>
+        <label for="sujet">Quel est l'objet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+          <option value="" disabled selected hidden Choisissez le sujet de votre message</option>
+          <option value="probleme-compte">Professionnel</option>
+          <option value="question-produit">Personnel</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Votre message :</label>
+        <textarea id="message" name="message" placeholder="Contenu du message à transmettre..." required></textarea>
+      </div>
+      <div>
+        <button type="submit" class="submit-button">Envoyer mon message</button>
+      </div>
+
+    <script type="text/javascript" src="script_contact.js"></script>
+  </body>
+</html>

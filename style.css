@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@700&display=swap');
+
+body {
+  background-color: #08142a;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 700; 
+  color: #ff7a32;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2); /* Ombre du texte */
+  letter-spacing: 4px; /* Espacement entre les lettres */
+
+}
+
+@keyframes float {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+}
+
+.name {
+  animation: float 5s ease-in-out infinite;
+  font-size: 5rem;
+  background: linear-gradient(90deg, #ff3700, #ffc400); 
+  -webkit-background-clip: text; /* Appliquer le dégradé au texte */
+  color: transparent; 
+}
+.menu_accueil {
+    display: flex;
+    padding: 8px;
+    flex-direction: column ;
+    align-items: center;
+  }
+
+  .option_menu {
+    text-decoration: none;
+    width: 400px;
+    height: 80px;
+    margin: 10px;
+    font-size: 1.6em;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: border-color 1s ease;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .option_menu:hover {
+    transform: scale(1.2);
+    border-color: white;
+  }

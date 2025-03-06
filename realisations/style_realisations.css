@@ -1,0 +1,95 @@
+body {
+    background:#08142a;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center; 
+    color: #ffffff;
+    line-height: 1.6;   
+    }
+
+    .home-arrow {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 24px; /* Taille de l'icône */
+        text-decoration: none;
+        color: #ffffff; /* Couleur de la flèche */
+        background: #2980b9; /* Fond légèrement transparent */
+        padding: 10px;
+        border-radius: 50%; /* Forme arrondie */
+        border: 5px solid;
+        transition: all 0.3s ease;
+    }
+    
+    .home-arrow:hover {
+        background: rgba(255, 255, 255, 1);
+        color: #000; /* Changement de couleur au survol */
+        transform: scale(1.1); /* Effet d’agrandissement au survol */
+    }
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #61c0ff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+
+    font-size: 4rem;
+    font-weight: 700; 
+    text-shadow: 2px 2px 4px #435966; /* Ombre du texte */
+    color: #fdf7f0;
+    padding: 20px;
+}
+
+.introduction {
+    font-size: 1.1em;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+/* Style des blocs de documents */
+.document-block {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.document-block h2 {
+    margin-top: 0;
+    color: #08142a;
+    font-size: 1.8em;
+}
+
+.document-block p {
+    font-size: 1em;
+    color: #08142a;
+}
+
+/* Style du lien PDF */
+.pdf-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #61c0ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: background-color 0.3s ease;
+    transition: border-color 1s ease;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pdf-link:hover {
+    background-color: #2980b9;
+    transform: scale(1.2);
+    border-color: #08142a;
+}

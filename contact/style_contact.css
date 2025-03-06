@@ -1,0 +1,148 @@
+body {
+    background:#08142a;
+    font-family: 'Poppins', sans-serif;
+    display: flex; 
+    justify-content: center; 
+    color: #ffffff;
+    }
+   
+    .home-arrow {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 24px; /* Taille de l'icône */
+        text-decoration: none;
+        color: #ffffff; /* Couleur de la flèche */
+        background: #2980b9; /* Fond légèrement transparent */
+        padding: 10px;
+        border-radius: 50%; /* Forme arrondie */
+        border: 5px solid;
+        transition: all 0.3s ease;
+    }
+    
+    .home-arrow:hover {
+        background: rgba(255, 255, 255, 1);
+        color: #000; /* Changement de couleur au survol */
+        transform: scale(1.1); /* Effet d’agrandissement au survol */
+    }
+    
+    
+    .carte_visite {
+        background-color: #2980b9;
+        color:#ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 300px;
+        text-align: center;
+        margin: auto;
+        border: 5px solid; 
+        padding: 0 50px 0 50px; 
+    }
+    .carte_visite h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .carte_visite p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .carte_visite a {
+        text-decoration: none;
+        color:#ffffff
+    }
+    .carte_visite a:hover {
+        text-decoration: underline;
+    }
+
+img {
+    width: 100%; /* l'image prend toute la largeur du conteneur */
+    height: auto; /* hauteur ajustée automatiquement pour conserver les proportions */
+    display: block; /* éviter l'espace en dessous de l'image */
+    object-fit: cover; /* assure que l'image couvre tout l'espace sans déformation */
+    border-radius: 10px; /* arrondir les coins de l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.contactez-moi {
+    width: 700px;
+    border-radius: 8px;
+    border: 5px solid; padding: 0 50px 0 50px; 
+    background : #1f3866;
+    margin: auto;
+    }
+
+.contactez-moi > h1 {
+    font-weight: 500; 
+    }
+    
+.contactez-moi > p {
+    font-weight: 300;
+    }
+
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    min-height: 83px; 
+    margin-top: 25px; 
+    }
+
+form div label {
+    margin-bottom: 7px;
+    font-weight: 600;
+    }
+
+form div > input, form div > select, form div textarea {
+    background:#516fa798;
+    border: none;
+    font-style: italic;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+    }
+
+form div > input, form div > select {
+    height: 50px;
+    padding-left: 10px;
+    }
+
+form div > textarea {
+    height: 110px;
+    padding: 15px 0px 0px 10px;
+    }
+
+form div > input::placeholder, form div > textarea::placeholder { 
+    color: white;
+    }
+
+form div > select:invalid { 
+    color: white; 
+    }
+
+form div > select option {
+    background:white;
+    color:#303030;
+    }
+
+form div:last-child {
+    align-items:center; 
+    margin-top: 20px;
+    }
+
+.submit-button {
+    width: 450px;
+    max-width: 500px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 28px;
+    margin:auto;
+    background:white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #5b4545;
+    }

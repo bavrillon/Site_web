@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@700&display=swap');
+
+body {
+    background:#b5d4b1;
+    font-family: Montserrat, "sans-serif"; 
+    justify-content: center; 
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: center;
+    }
+    .home-arrow {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 24px; /* Taille de l'icône */
+        text-decoration: none;
+        color: #ffffff; /* Couleur de la flèche */
+        background: #2980b9; /* Fond légèrement transparent */
+        padding: 10px;
+        border-radius: 50%; /* Forme arrondie */
+        border: 5px solid;
+        transition: all 0.3s ease;
+    }
+    
+    .home-arrow:hover {
+        background: rgba(255, 255, 255, 1);
+        color: #000; /* Changement de couleur au survol */
+        transform: scale(1.1); /* Effet d’agrandissement au survol */
+    }
+
+.header-container {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 200px; /* Espace entre le titre et le logo */
+    }
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 700; 
+    color: #fdf7f0;
+    text-shadow: 2px 2px 4px #435966; /* Ombre du texte */
+    padding: 20px;
+    background-color: #435966;
+    border-radius: 20px ;
+    }
+
+.import_cv {
+    width: 100%;
+    padding-top: 141.4286%;
+    padding-bottom: 0;
+    box-shadow: 0 2px 8px 0 rgba(127, 0, 0, 0.16);
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    border-radius: 50px;
+    will-change: transform;
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    box-shadow: 10px 0 10px -5px rgba(0, 0, 0, 0.5);
+    max-width: 160px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+}

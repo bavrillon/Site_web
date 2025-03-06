@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bastien AVRILLON - Galerie</title>
+    <link rel="stylesheet" href="style_gallerie.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="home-arrow">
+        <i class="fas fa-arrow-left"></i>
+      </a>
+      <h1>Apperçu de ma gallerie photo</h1>
+      <h3>
+        Quelques clichés capturé avec plaisir lors de voyages, sorties en
+        montagnes ou ballades parisiennes...
+      </h3>
+    </header>
+    <div class="gallery" id="gallery"></div>
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+      <div id="caption"></div>
+    </div>
+
+    <script src="script_gallerie.js"></script>
+  </body>
+</html>
